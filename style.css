@@ -47,12 +47,12 @@ header {
 }
 
 .cabecalho_texts_alura {
-    font-size: 40px; /* Ajustar o tamanho do texto */
-    margin-right: 10px; /* Adicionar espaço à direita */
+    font-size: 40px; 
+    margin-right: 10px; 
 }
 
 .cabecalho_texts_decodificador {
-    display: inline-block; /* Para que o título "Decodificador" não ocupe a linha inteira */
+    display: inline-block; 
 }
 
 .text_crip {
@@ -63,7 +63,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Permitir que os elementos se ajustem à largura máxima */
+    flex-wrap: wrap; 
     gap:10px;
 }
 
@@ -156,14 +156,14 @@ p {
 }
 
 footer {
-    background-color: #000; /* Cor de fundo para o footer */
-    color: #fff; /* Cor do texto no footer (branco) */
-    text-align: center; /* Centralizar o texto */
-    padding: 20px; /* Adicionar espaço interno */
-    position: fixed; /* Fixar o footer na parte inferior da tela */
-    left: 0; /* Alinhar o footer à esquerda */
-    bottom: 0; /* Alinhar o footer ao final da página */
-    width: 100%; /* Tornar o footer amplo */
+    background-color: #000; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
     font-size:  0.625rem;
 }
 
@@ -200,7 +200,7 @@ footer {
         height: auto;
     }
     footer {
-        font-size:  0.625rem; /* Reduzir o tamanho da fonte para dispositivos menores */
+        font-size:  0.625rem; 
     }
 }
 
