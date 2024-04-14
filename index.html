@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_texts">
+            <img src="step-post-alura.svg" alt="logo_alura" class="cabecalho_texts_alura">
+            <h2 class="cabecalho_texts_decodificador">Decodificador</h2>
+        </div>    
+    </header>
+    <main>
+        <div class="text_crip">
+            <div class="input_output">
+                <div class="input-wrapper">
+                    <input type="text" id="inputText" placeholder="Digite o texto aqui" class="input">
+                    <button class="botao_criptografar" onclick="criptografar()">Criptografar</button>
+                    <button class="botao_descriptografar" onclick="descriptografar()">Descriptografar</button>
+                </div>
+                <div class="output-wrapper">
+                    <p id="resultado" class="output" >Resultado...</p>
+                    <button onclick="copiarCriptografia()">Copiar</button>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img src="XRElkYw0KykqnY_V97Dj7-transformed.webp" alt="hackerman">
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <canvas id="c"></canvas>
+    <script src="app.js"></script>
+    <script src="arte.js"></script>
+</body>
+</html>
